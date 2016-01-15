@@ -10,7 +10,7 @@ public class AxleInfo_P2 {
 }
 
 public class CarMovementP2 : MonoBehaviour {
-	public List<AxleInfo> axleInfos; // the information about each individual axle
+	public List<AxleInfo_P2> axleInfos; // the information about each individual axle
 	public float maxMotorTorque; // maximum torque the motor can apply to wheel
 	public float maxSteeringAngle; // maximum steer angle the wheel can have
 	
